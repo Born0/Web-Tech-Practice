@@ -6,31 +6,31 @@
 <h1>Registration</h1>
 
 <form action="loginAction/Result.php" method-'post'  >
-    <table style="width:50%" border=2 >
+    <table style="width:50%" >
 
         <tr >
             <td>Name      :</td>
-            <td> <input type="text" placeholder-"Name" required></td>
+            <td> <input type="text" placeholder="First name last name" required></td>
         </tr>
 
         <tr>
             <td>Email      :</td>
-            <td><input type="email" placeholder-"Email" required></td>
+            <td><input type="email" placeholder="example@email.com" required></td>
         </tr>
 
         <tr>
             <td>User Name  :</td>
-            <td><input type="text" placeholder-"UserName" required></td>
+            <td><input type="text" placeholder="UserName" required></td>
         </tr>
 
         <tr>
             <td>Password  :</td>
-            <td><input type="password" placeholder-"Password" required></td>
+            <td><input type="password" placeholder="Password" required></td>
         </tr>
 
         <tr>
             <td>Confirm Password :</td>
-            <td><input type="password" placeholder-"ConformPassword" required></td>
+            <td><input type="password" placeholder="ConformPassword" required></td>
         </tr>
 
 
