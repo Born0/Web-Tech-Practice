@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html>
-
+    <head>
+        <meta lang="en-us"> 
+    </head>
 <body>
 
 <h1>Registration</h1>
 
 <form action="loginAction/Result.php" method-'post'  >
-    <table style="width:50%" >
-
-        <tr >
-            <td>Name      :</td>
-            <td> <input type="text" placeholder="First name last name" required></td>
-        </tr>
+    <table style="width:50%" border=1 frame=hsides rules=rows >
 
         <tr>
+            <td>Name      :</td>
+            <td> <input type="text" required></td>
+            
+        </tr>
+        
+        <tr>
             <td>Email      :</td>
-            <td><input type="email" placeholder="example@email.com" required></td>
+            <td><input type="email" required></td>
         </tr>
 
         <tr>
             <td>User Name  :</td>
-            <td><input type="text" placeholder="UserName" required></td>
+            <td><input type="text"  required></td>
         </tr>
 
         <tr>
             <td>Password  :</td>
-            <td><input type="password" placeholder="Password" required></td>
+            <td><input type="password" required></td>
         </tr>
 
         <tr>
             <td>Confirm Password :</td>
-            <td><input type="password" placeholder="ConformPassword" required></td>
+            <td><input type="password"  required></td>
         </tr>
 
 
@@ -56,10 +59,15 @@
                 <input type="date" id="birthday" name="birthday">
             </tr>
         </table></td></tr>
+            <tr><td><table>
+                <tr>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </tr>
+        </table></td></tr>
     </table>
 
-        <br><input type="submit" value="Submit">
-        <input type="reset" value="Reset">
+        
 </form>
 </body>
 </html>
