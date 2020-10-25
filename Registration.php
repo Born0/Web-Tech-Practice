@@ -4,6 +4,7 @@
         <meta lang="en-us"> 
     </head>
 <body>
+
 <a href="Registration.php"><h1>Registration</h1> </a>
 <a href="loginAction/Result.php"><h2>Result</h2> </a>
 <a href="loginAction/Home.php"><h3>Home</h3> </a>
@@ -13,28 +14,28 @@
 
         <tr>
             <td>Name      :</td>
-            <td> <input type="text"  ></td>
+            <td> <input type="text" required ></td>
             
         </tr>
         
         <tr>
             <td>Email      :</td>
-            <td><input type="email"  ></td>
+            <td><input type="email" required ></td>
         </tr>
 
         <tr>
             <td>User Name  :</td>
-            <td><input type="text"   ></td>
+            <td><input type="text"  required ></td>
         </tr>
 
         <tr>
             <td>Password  :</td>
-            <td><input type="password"  ></td>
+            <td><input type="password" required ></td>
         </tr>
 
         <tr>
             <td>Confirm Password :</td>
-            <td><input type="password"   ></td>
+            <td><input type="password"  required ></td>
         </tr>
 
 
@@ -42,7 +43,7 @@
         <tr><td><table >
             <tr>
                 <b> Gender</b><br>
-                <input type="radio" id="male" name="gender" value="male">
+                <input type="radio" id="male" name="gender" value="male" required>
                 <label for="male">Male</label>
                 <input type="radio" id="female" name="gender" value="female">
                 <label for="female">Female</label>
@@ -57,7 +58,7 @@
             <tr>
                 <b>Date of Birth</b><br>
                 <label for="birthday">Birthday:</label>
-                <input type="date" id="birthday" name="birthday">
+                <input type="date" id="birthday" name="birthday" required>
             </tr>
         </table></td></tr>
             <tr><td><table>
