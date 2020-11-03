@@ -67,9 +67,8 @@
                     <input type="reset" value="Reset">
                 </tr>
         </table></td></tr>
-    </table>
-
-        
+    </table>    
 </form>
 </body>
+    <?php include 'loginAction/footer.php';?>
 </html>
