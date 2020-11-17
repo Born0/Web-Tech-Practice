@@ -1,2 +1,11 @@
 <?xml version="1.0"?>
-<books><book><Booktitle>The  Oz</Booktitle><PublicationDate>1985</PublicationDate></book><book><Booktitle> Fox</Booktitle><PublicationDate>1960</PublicationDate></book></books>
+<books>
+	<book>
+		<Booktitle>TheOz</Booktitle>
+		<PublicationDate>1985</PublicationDate>
+	</book>
+	<book>
+		<Booktitle> Fox</Booktitle>
+		<PublicationDate>1960</PublicationDate>
+	</book>
+</books>
