@@ -78,7 +78,7 @@
 
 
   <form method="POST">
-    <label for="">Enter Id to Search</label><br>
+    <label for="">Search</label><br>
     <input type="text" id="search" name="search"> <br>
 
     <input type="radio" name="type" value="id"> id
